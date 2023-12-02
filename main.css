@@ -1,8 +1,9 @@
-body {background-color: rgb(96, 189, 189);}
+body {background-color: #60bdbd;}
 h1 {color:white; text-align: center;}
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 #intro {border: 2px dotted rgb(255, 255, 255);}
 table { margin: 0 auto; width: 50%; }
+table {border: 8px dotted rgb(92, 107, 183);}
 /* i hope you're having a good day */
 img {display: block; margin: 0 auto;}
 body {text-align: center;}
@@ -15,3 +16,23 @@ div:nth-child(odd) {
 li:nth-child(even) {
     color: rgb(149, 114, 181);
 }
+@media only screen and (max-width: 600px){
+}
+div.ex1 {
+
+    width: 300px;
+    
+    margin: auto;
+    
+    border: 2px solid #000000;
+    
+    }
+    div.ex2 {
+    
+    max-width: 300px;
+    
+    margin: auto;
+    
+    border: 2px solid #000000;
+    
+    }
