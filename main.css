@@ -1,20 +1,12 @@
+/* this is my CSS section */
 body {background-color: #60bdbd;}
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 #intro {border: 2px dotted rgb(255, 255, 255);}
 table { margin: 0 auto; width: 50%; }
 table {border: 8px dotted rgb(92, 107, 183);}
-/* i hope you're having a good day */
 img {display: block; margin: 0 auto;}
 body {text-align: center;}
 body {font-size: large; color: rgb(67, 66, 67);}
-/* i don't know if this looks good but here it is */
-#txt-counter.odd {color: rgb(24, 255, 255);}
-div:nth-child(odd) {
-    color: rgb(255, 0, 234);
-}
-li:nth-child(even) {
-    color: rgb(149, 114, 181);
-}
 h1 {font-family: 'Anton', sans-serif;
     font-size: 100px;
     text-align: center;
@@ -40,3 +32,11 @@ div.ex1 {
     border: 2px solid #000000;
     
     }
+/* this is my javascript section */
+#txt-counter.odd {color: rgb(24, 255, 255);}
+div:nth-child(odd) {
+    color: rgb(255, 0, 234);
+}
+li:nth-child(even) {
+    color: rgb(149, 114, 181);
+}
